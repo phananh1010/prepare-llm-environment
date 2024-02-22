@@ -1,5 +1,6 @@
-# Prepare-llm-environment
-This is a step-by-step instruction to prepare a functional environment for LLM development
+# Introduction
+LLM is huge. It requires a large amount of GPU memory and have long running time if using traditional training methods.
+We introduce a guideline to use basic quantization techniques to reduce model memory footprint, improve training time. This document contains step-by-step instruction to fine-tune an LLM that includes necessary technique to accomodate the Llama-8b model on a 24Gb GPU.
 
 # Step 0: install mamba
 As mamba is faster than conda, it is strongly recommended to install mamba instead. Use the following code to install and activate mamba. See this [site](https://github.com/conda-forge/miniforge) for more info.
