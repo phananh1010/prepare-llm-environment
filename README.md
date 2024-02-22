@@ -33,4 +33,5 @@ or in python:
 import os
 os.environ['HF_HUB_CACHE'] = '/apps/workspace/data/huggingface-cache'
 ```
-
+# Step 3: refer to the `fine-tuning.py`
+This code has been sucessfully run in a GPU with 24G of Memory. The whole training only requires 13Gb.
